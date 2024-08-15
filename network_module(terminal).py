@@ -53,7 +53,7 @@ def main():
 
 
     elif menu_choice == 3:
-        ip_range = input("Enter IP range (e.g., 192.168.1.1/24): ")
+        ip_range = input("Enter IP range: ")
         scan_results = scan(ip_range)
 
     else:
