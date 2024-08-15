@@ -79,7 +79,7 @@ def main():
             scan(ip_range, text)
         elif choice == "Custom IP Range":
             ip_range = ip_entry.get()
-            if ip_range and ip_range != "Enter IP range (e.g., 192.168.1.1/24)":
+            if ip_range and ip_range != "Enter IP range":
                 scan(ip_range, text)
             else:
                 messagebox.showerror("Error", "Please enter a valid IP range.")
