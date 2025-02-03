@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import os
 
+print("test")
 
 def list_files():
     return [
